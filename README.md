@@ -1,31 +1,19 @@
-# CI/CD Tools and Practices Final Project Template
+# CI/CD Tools and Practices Final Project 
 
-This repository contains the template to be used for the Final Project for the Coursera course **CI/CD Tools and Practices**.
-
-## Usage
-
-This repository is to be used as a template to create your own repository in your own GitHub account. No need to Fork it as it has been set up as a Template. This will avoid confusion when making Pull Requests in the future.
-
-From the GitHub **Code** page, press the green **Use this template** button to create your own repository from this template.
-
-Name your repo: `ci-cd-final-project`.
-
-## Setup
-
-After entering the lab environment you will need to run the `setup.sh` script in the `./bin` folder to install the prerequisite software.
-
-```bash
-bash bin/setup.sh
-```
-
-Then you must exit the shell and start a new one for the Python virtual environment to be activated.
-
-```bash
-exit
-```
 
 ## Tasks
 
+This project-based course was a deep dive into designing modern, cloud-native CI/CD pipelines — and it pushed me to apply what I’ve learned in a real-world DevOps workflow.
+
+🛠️ Here’s what I built:
+
+✅ A GitHub Actions CI pipeline with automated steps for flake8 linting and nose-based unit testing
+
+✅ Tekton Tasks for linting, testing, and building Docker images — written from scratch in YAML
+
+✅ An OpenShift CI Pipeline that reuses these Tekton tasks to automate the end-to-end build and test process
+
+✅ A final deployment step that deploys the image to the lab OpenShift cluster using the OpenShift Client task and oc command
 
 ## License
 
